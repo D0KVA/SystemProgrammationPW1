@@ -1,6 +1,6 @@
-#define LED_PIN_GREEN 4
+#define LED_PIN_GREEN 3
 #define LED_PIN_YELLOW 2
-#define LED_PIN_RED 3
+#define LED_PIN_RED 4
 
 void setup() {
   pinMode(LED_PIN_GREEN, OUTPUT); 
@@ -23,6 +23,7 @@ void loop() {
   digitalWrite(LED_PIN_GREEN, HIGH);
   delay(500); 
   digitalWrite(LED_PIN_GREEN, LOW);
+  delay(500); 
   }
 
   digitalWrite(LED_PIN_YELLOW, HIGH);
